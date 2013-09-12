@@ -1,0 +1,116 @@
+###############################################################################
+## TAL library template Makefile
+## Copyright (c) 2007 Cidana, Inc.
+###############################################################################
+
+.PHONY: default clean
+
+ifeq ($(VERBOSE), N)
+.SILENT:
+endif
+
+#flags for tools
+ifeq ($(DEBUG), Y)
+CFLAGS += -g
+CXXFLAGS += -g
+else
+CFLAGS += -O2
+CXXFLAGS += -O2
+endif
+
+DEFINES += _OS_LINUX_ __linux__
+
+#set source directoy
+VPATH += $(SRC_DIRS)
+
+#set flags
+CFLAGS += $(foreach dir, $(SRC_DIRS), -I$(dir))
+CFLAGS += $(foreach dir, $(INC_DIRS), -I$(dir))
+CFLAGS += $(foreach def, $(DEFINES), -D$(def))
+CFLAGS += -I$(TOP)/$(LIBWIN32_INC)
+CXXFLAGS += $(foreach dir, $(SRC_DIRS), -I$(dir))
+CXXFLAGS += $(foreach dir, $(INC_DIRS), -I$(dir))
+CXXFLAGS += $(foreach def, $(DEFINES), -D$(def))
+CXXFLAGS += -I$(TOP)/$(LIBWIN32_INC)
+
+LDFLAGS += $(foreach dir, $(LIB_DIRS), -L$(dir))
+ifneq ($(OUTPUT),$(LIBWIN32))
+LDFLAGS += -L$(TOP)/$(LIBWIN32PATH)
+endif
+
+LD_LIBS = $(foreach lib, $(LIBRARIES), -l$(lib))
+ifneq ($(OUTPUT),$(LIBWIN32))
+ifneq ($(BUILD_PLATFORM),ST)
+ifneq ($(BUILD_PLATFORM),PXA_LINUX)
+#LD_LIBS += -l$(subst lib,,$(basename $(LIBWIN32)))
+endif
+endif
+endif
+
+ARFLAGS = rs
+
+default: $(OUTPUT)
+
+$(OUTPUT):$(OBJS)
+	@echo "Building $@ ..."
+#create output directory if not exists
+ifneq ($(OUTPUT_PATH),)
+	if [ ! -d $(OUTPUT_PATH) ]; then mkdir $(OUTPUT_PATH); fi;
+endif
+
+#build static library
+ifeq ($(BUILD_FORMAT), STATIC_LIB)
+ifeq ($(MERGE_LIBS),)
+#combine all static libraries into one
+	$(AR) $(ARFLAGS) $(OBJ_DIR)/$@ $^
+else
+	$(AR) $(ARFLAGS) $(OBJ_DIR)/Tmp_$@ $^
+	$(LD) -o $(OBJ_DIR)/$@ -z muldefs -Ur --whole-archive $(OBJ_DIR)/Tmp_$@ $(MERGE_LIBS) --no-whole-archive
+	@rm -f $(OBJ_DIR)/Tmp_$@
+endif
+endif
+
+#build dynamic library
+ifeq ($(BUILD_FORMAT), DYNAMIC_LIB)
+#	$(CXX) $(LDFLAGS) -shared -fPIC -o $(OBJ_DIR)/$@ $^ -Wl,--whole-archive $(LD_LIBS) $(EXTRA_DEPENDENCIES) -Wl,--no-whole-archive
+
+ifeq ($(BUILD_PLATFORM),)
+	$(CXX) $(LDFLAGS) -shared -fPIC -z muldefs -o $(OBJ_DIR)/$@ $^ $(LD_LIBS) $(EXTRA_DEPENDENCIES)
+else
+	$(CXX) $(LDFLAGS) -shared -fPIC -o $(OBJ_DIR)/$@ $^ $(LD_LIBS) $(EXTRA_DEPENDENCIES)
+endif
+endif
+
+#build application
+ifeq ($(BUILD_FORMAT), APPLICATION)
+	$(CXX) $(LDFLAGS) -o $(OBJ_DIR)/$@ $^ $(LD_LIBS) $(EXTRA_DEPENDENCIES)
+endif
+
+#copy the output to destination path
+ifneq ($(OUTPUT_PATH),)
+	$(CP) $(OBJ_DIR)/$@ $(OUTPUT_PATH)/
+endif
+
+clean:
+	@echo "Cleaning directory  $(CURDIR) ..."
+	-$(RM) $(OBJ_DIR)/*.o $(OBJ_DIR)/$(OUTPUT)
+	-$(RM) $(OBJ_DIR)/*.o $(OUTPUT_PATH)/$(OUTPUT)
+
+
+#rules for compilation
+#
+#rules for C files
+#
+$(OBJ_DIR)/%.o: %.c
+	@echo "Compiling $< ..."
+	if [ ! -d $(OBJ_DIR) ]; then mkdir $(OBJ_DIR); fi;
+	$(CC) -c $(CFLAGS) -o $@ $<
+	
+#
+#rules for C++ files
+#
+$(OBJ_DIR)/%.o:%.cpp
+	@echo "compiling $< ..."
+	if [ ! -d $(OBJ_DIR) ]; then mkdir $(OBJ_DIR); fi;
+	$(CXX) -c $(CXXFLAGS) -o $@ $<	
+

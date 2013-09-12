@@ -1,0 +1,6 @@
+; VDecRnd.def : Declares the module parameters for the DLL.
+
+LIBRARY      "VDecRnd"
+
+EXPORTS
+    ; Explicit exports can go here

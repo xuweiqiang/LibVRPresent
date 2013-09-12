@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VDecRnd", "VDecRnd\VDecRnd.vcproj", "{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|STANDARD_CE6_SDK (ARMV4I) = Debug|STANDARD_CE6_SDK (ARMV4I)
+		Release|STANDARD_CE6_SDK (ARMV4I) = Release|STANDARD_CE6_SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Debug|STANDARD_CE6_SDK (ARMV4I).ActiveCfg = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Debug|STANDARD_CE6_SDK (ARMV4I).Build.0 = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Debug|STANDARD_CE6_SDK (ARMV4I).Deploy.0 = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Release|STANDARD_CE6_SDK (ARMV4I).ActiveCfg = Release|STANDARD_CE6_SDK (ARMV4I)
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Release|STANDARD_CE6_SDK (ARMV4I).Build.0 = Release|STANDARD_CE6_SDK (ARMV4I)
+		{BAC411C1-E91D-4C27-81BA-89CEECCD6B7A}.Release|STANDARD_CE6_SDK (ARMV4I).Deploy.0 = Release|STANDARD_CE6_SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

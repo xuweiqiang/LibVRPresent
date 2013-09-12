@@ -1,0 +1,412 @@
+TLibSubtitle
+v4
+r1
+cCheck dependencies
+cCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/ALI_DTV_SUB.c
+c000000004BA877A30000000000002FCB
+t1269331875
+s12235
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos/libLibSubtitle.a
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/LibSubtitle.LinkFileList
+c000000004F38B69E0000000000000603
+t1329116830
+s1539
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/SUBSync.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_display_set.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_finder.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_renderer.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_segments.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/exlist.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/subdecoder.o
+t2
+s0
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_decoder.c
+c000000004C1ED40A0000000000003987
+t1277088778
+s14727
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_display_set.c
+c000000004B9999D80000000000003427
+t1268357592
+s13351
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_finder.c
+c000000004B9999D800000000000009BD
+t1268357592
+s2493
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_renderer.c
+c000000004B9999D800000000000047FF
+t1268357592
+s18431
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_segments.c
+c000000004B9999D80000000000003DA3
+t1268357592
+s15779
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/exlist.c
+c000000004B9999D8000000000000626C
+t1268357592
+s25196
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c
+c000000004BA877A30000000000002FCB
+t1269331875
+s12235
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c
+c000000004C1ED40A0000000000003987
+t1277088778
+s14727
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.c
+c000000004B9999D80000000000003427
+t1268357592
+s13351
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_finder.c
+c000000004B9999D800000000000009BD
+t1268357592
+s2493
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_renderer.c
+c000000004B9999D800000000000047FF
+t1268357592
+s18431
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.c
+c000000004B9999D80000000000003DA3
+t1268357592
+s15779
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/exlist.c
+c000000004B9999D8000000000000626C
+t1268357592
+s25196
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/SUBSync.cpp
+c000000004C1ED40A000000000000165D
+t1277088778
+s5725
+
+N/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/subdecoder.cpp
+c000000004EB2544D0000000000004AFD
+t1320309837
+s19197
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/ALI_DTV_SUB.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_decoder.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_display_set.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_finder.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_renderer.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_segments.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/exlist.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_finder.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_renderer.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/exlist.c"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/SUBSync.cpp"
+r0
+
+CBuild AST from "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/subdecoder.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies32abff1deee8b441^1b2d0b1eeee8b441^---0#1#0#--18"Check dependencies36"05EEDBF3-FCDB-41FA-9A75-411168C7CF35-
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/ALI_DTV_SUB.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s350809630.072172
+e350809630.392496
+r0
+xCompileC
+xbuild/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o
+x/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:19:
+oIn file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:5:
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:37:9: error: unknown type name 'UINT64' [1]
+o typedef UINT64   uint64_t;
+o         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:38:9: error: unknown type name 'INT64' [1]
+o typedef INT64   int64_t;
+o         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:24:65: error: unknown type name 'UINT64' [1]
+o typedef void (*DisplaySetRecv_CB)(void *priv, void *display_set,UINT64 pts);
+o                                                                 ^
+oIn file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:39:1: error: unknown type name 'HANDLE' [1]
+o HANDLE ALI_DTV_SUB_Create(int page_id,int ancillary_page_id,DisplaySetRecv_CB ds_recv_cb,void* ds_recv_priv);
+o ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:53:25: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Release(HANDLE SUBHandle);
+o                         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:69:30: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Push_PES_Pkt(HANDLE SUBHandle,char* pkt,int max_size);
+o                              ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:84:29: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Push_ES_Pkt(HANDLE SUBHandle,char* pkt,int max_size, unsigned int PTS);
+o                             ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:96:40: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Get_Region_Count_Of_DS(HANDLE SUBHandle,void* display_set);
+o                                        ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:110:36: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Get_Time_Out_Of_DS(HANDLE SUBHandle,void* display_set);
+o                                    ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:126:33: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Get_Region_Info(HANDLE SUBHandle,void* display_set,region_info* region,unsigned int region_index);
+o                                 ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:144:48: error: unknown type name 'HANDLE' [1]
+o void* ALI_DTV_SUB_Region_Render_Context_Create(HANDLE SUBHandle,void* display_set,unsigned int region_id,
+o                                                ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:158:41: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Region_Actual_Rendering(HANDLE SUBHandle,void* ctxt);
+o                                         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:172:47: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Region_Render_Context_Destroy(HANDLE SUBHandle,void* ctxt);
+o                                               ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:185:37: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Display_Set_Destroy(HANDLE SUBHandle,void* display_set);
+o                                     ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:60:25:{60:25-60:27}: warning: passing 'const tDisplaySet *' (aka 'const struct _tDisplaySet_ *') to parameter of type 'tDisplaySet *' (aka 'struct _tDisplaySet_ *') discards qualifiers [3]
+o       DisplaySetRelease(ds); 
+o                         ^~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.h:67:37: note: passing argument to parameter 'display_set' here [3]
+o void DisplaySetRelease(tDisplaySet *display_set);
+o                                     ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:80:1: error: unknown type name 'HANDLE' [1]
+o HANDLE ALI_DTV_SUB_Create(int page_id,int ancillary_page_id,DisplaySetRecv_CB ds_recv_cb,void* ds_recv_priv)
+o ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:104:58:{104:58-104:78}: warning: incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)') [-Wincompatible-pointer-types,3]
+o                                                          page_decoder_cb_self,
+o                                                          ^~~~~~~~~~~~~~~~~~~~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:43:43: note: passing argument to parameter 'callback' here [3]
+o                            PageDecoder_CB callback,
+o                                           ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:113:58:{113:58-113:78}: warning: incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)') [-Wincompatible-pointer-types,3]
+o                                                          page_decoder_cb_self,
+o                                                          ^~~~~~~~~~~~~~~~~~~~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:43:43: note: passing argument to parameter 'callback' here [3]
+o                            PageDecoder_CB callback,
+o                                           ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:125:16:{125:16-125:18}: warning: incompatible pointer to integer conversion returning 'pSUBCtxt' (aka 'SUBCtxt *') from a function with result type 'int' [3]
+o         return hr;
+o                ^~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:137:12:{137:12-137:16}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int' [3]
+o     return NULL;
+o            ^~~~
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h:115:14: note: instantiated from:
+o #define NULL __DARWIN_NULL
+o              ^
+o/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h:91:23: note: instantiated from:
+o #define __DARWIN_NULL ((void *)0)
+o                       ^~~~~~~~~~~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:151:25: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Release(HANDLE SUBHandle)
+o                         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:157:8: warning: implicit declaration of function 'Sleep' is invalid in C99 [-Wimplicit-function-declaration,3]
+o        Sleep(1);
+o        ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:183:30: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Push_PES_Pkt(HANDLE SUBHandle,char* pkt,int max_size)
+o                              ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:188:44:{188:44-188:47}: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign,3]
+o             return PESPacketPush(hr->dsub_decoder,pkt,max_size);
+o                                                   ^~~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:50:68: note: passing argument to parameter 'packet' here [3]
+o int PESPacketPush(tDsubDecoder *dsub_decoder, const unsigned char* packet,int max_size);
+o                                                                    ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:193:29: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Push_ES_Pkt(HANDLE SUBHandle,char* pkt,int max_size, unsigned int PTS)
+o                             ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:200:11: warning: implicit declaration of function 'ESPacketPush' is invalid in C99 [-Wimplicit-function-declaration,3]
+o                         return ESPacketPush(max_size, pkt, hr->dsub_decoder, TempPts);
+o                                ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:217:40: error: unknown type name 'HANDLE' [1]
+o int ALI_DTV_SUB_Get_Region_Count_Of_DS(HANDLE SUBHandle,void* display_set)
+o                                        ^
+ofatal error: too many errors emitted, stopping now [-ferror-limit=]
+o8 warnings and 20 errors generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c2fde131eeee8b441^d105651eeee8b441^-9788"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:5:In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:19:/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:37:9: error: unknown type name 'UINT64' [1] typedef UINT64   uint64_t;         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:38:9: error: unknown type name 'INT64' [1] typedef INT64   int64_t;         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:24:65: error: unknown type name 'UINT64' [1] typedef void (*DisplaySetRecv_CB)(void *priv, void *display_set,UINT64 pts);                                                                 ^In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:39:1: error: unknown type name 'HANDLE' [1] HANDLE ALI_DTV_SUB_Create(int page_id,int ancillary_page_id,DisplaySetRecv_CB ds_recv_cb,void* ds_recv_priv); ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:53:25: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Release(HANDLE SUBHandle);                         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:69:30: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Push_PES_Pkt(HANDLE SUBHandle,char* pkt,int max_size);                              ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:84:29: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Push_ES_Pkt(HANDLE SUBHandle,char* pkt,int max_size, unsigned int PTS);                             ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:96:40: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Get_Region_Count_Of_DS(HANDLE SUBHandle,void* display_set);                                        ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:110:36: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Get_Time_Out_Of_DS(HANDLE SUBHandle,void* display_set);                                    ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:126:33: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Get_Region_Info(HANDLE SUBHandle,void* display_set,region_info* region,unsigned int region_index);                                 ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:144:48: error: unknown type name 'HANDLE' [1] void* ALI_DTV_SUB_Region_Render_Context_Create(HANDLE SUBHandle,void* display_set,unsigned int region_id,                                                ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:158:41: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Region_Actual_Rendering(HANDLE SUBHandle,void* ctxt);                                         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:172:47: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Region_Render_Context_Destroy(HANDLE SUBHandle,void* ctxt);                                               ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h:185:37: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Display_Set_Destroy(HANDLE SUBHandle,void* display_set);                                     ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:60:25:{60:25-60:27}: warning: passing 'const tDisplaySet *' (aka 'const struct _tDisplaySet_ *') to parameter of type 'tDisplaySet *' (aka 'struct _tDisplaySet_ *') discards qualifiers [3]       DisplaySetRelease(ds);                          ^~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.h:67:37: note: passing argument to parameter 'display_set' here [3] void DisplaySetRelease(tDisplaySet *display_set);                                     ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:80:1: error: unknown type name 'HANDLE' [1] HANDLE ALI_DTV_SUB_Create(int page_id,int ancillary_page_id,DisplaySetRecv_CB ds_recv_cb,void* ds_recv_priv) ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:104:58:{104:58-104:78}: warning: incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)') [-Wincompatible-pointer-types,3]                                                          page_decoder_cb_self,                                                          ^~~~~~~~~~~~~~~~~~~~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:43:43: note: passing argument to parameter 'callback' here [3]                            PageDecoder_CB callback,                                           ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:113:58:{113:58-113:78}: warning: incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)') [-Wincompatible-pointer-types,3]                                                          page_decoder_cb_self,                                                          ^~~~~~~~~~~~~~~~~~~~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:43:43: note: passing argument to parameter 'callback' here [3]                            PageDecoder_CB callback,                                           ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:125:16:{125:16-125:18}: warning: incompatible pointer to integer conversion returning 'pSUBCtxt' (aka 'SUBCtxt *') from a function with result type 'int' [3]         return hr;                ^~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:137:12:{137:12-137:16}: warning: incompatible pointer to integer conversion returning 'void *' from a function with result type 'int' [3]     return NULL;            ^~~~/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h:115:14: note: instantiated from: #define NULL __DARWIN_NULL              ^/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h:91:23: note: instantiated from: #define __DARWIN_NULL ((void *)0)                       ^~~~~~~~~~~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:151:25: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Release(HANDLE SUBHandle)                         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:157:8: warning: implicit declaration of function 'Sleep' is invalid in C99 [-Wimplicit-function-declaration,3]        Sleep(1);        ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:183:30: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Push_PES_Pkt(HANDLE SUBHandle,char* pkt,int max_size)                              ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:188:44:{188:44-188:47}: warning: passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign [-Wpointer-sign,3]             return PESPacketPush(hr->dsub_decoder,pkt,max_size);                                                   ^~~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:50:68: note: passing argument to parameter 'packet' here [3] int PESPacketPush(tDsubDecoder *dsub_decoder, const unsigned char* packet,int max_size);                                                                    ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:193:29: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Push_ES_Pkt(HANDLE SUBHandle,char* pkt,int max_size, unsigned int PTS)                             ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:200:11: warning: implicit declaration of function 'ESPacketPush' is invalid in C99 [-Wimplicit-function-declaration,3]                         return ESPacketPush(max_size, pkt, hr->dsub_decoder, TempPts);                                ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:217:40: error: unknown type name 'HANDLE' [1] int ALI_DTV_SUB_Get_Region_Count_Of_DS(HANDLE SUBHandle,void* display_set)                                        ^fatal error: too many errors emitted, stopping now [-ferror-limit=]8 warnings and 20 errors generated.28(21%IDEActivityLogMessage2@26"Unknown type name 'UINT64'-350809630#260#150#3(36%IDEActivityLogHeaderInclusionMessage3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:5:-350809630#0#130#-0#-23%DVTTextDocumentLocation4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#---3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:19:-350809630#130#130#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#---2@135"Unknown type name 'UINT64' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h-350809630#18446744073709551615#0#-0#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^36#8#36#8#18446744073709551615#0#---2#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^36#8#36#8#18446744073709551615#0#11"Parse Issue--2@25"Unknown type name 'INT64'-350809630#449#149#3(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h:5:-350809630#18446744073709551615#0#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#---3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:19:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^18#18446744073709551615#18#18446744073709551615#18446744073709551615#0#---2@134"Unknown type name 'INT64' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h-350809630#18446744073709551615#0#-0#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^37#8#37#8#18446744073709551615#0#---2#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^37#8#37#8#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'UINT64'-350809630#635#149#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^23#64#23#64#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#1059#152#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#929#130#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^38#0#38#0#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^38#0#38#0#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#1325#153#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^52#24#52#24#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^52#24#52#24#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#1549#153#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^68#29#68#29#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^68#29#68#29#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#1806#153#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^83#28#83#28#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^83#28#83#28#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#2079#153#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^95#39#95#39#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^95#39#95#39#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#2351#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^109#35#109#35#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^109#35#109#35#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#2616#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^125#32#125#32#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^125#32#125#32#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#2921#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^143#47#143#47#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^143#47#143#47#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#3232#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^157#40#157#40#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^157#40#157#40#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#3500#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^171#46#171#46#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^171#46#171#46#18446744073709551615#0#11"Parse Issue--2@26"Unknown type name 'HANDLE'-350809630#3780#154#2(3@129"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c:50:-350809630#18446744073709551615#0#-0#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^49#18446744073709551615#49#18446744073709551615#18446744073709551615#0#---2@137"Unknown type name 'HANDLE' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h-350809630#18446744073709551615#0#-0#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^184#36#184#36#18446744073709551615#0#---2#-4@125"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB_api.h0000000000000000^184#36#184#36#18446744073709551615#0#11"Parse Issue--2@154"Passing 'const tDisplaySet *' (aka 'const struct _tDisplaySet_ *') to parameter of type 'tDisplaySet *' (aka 'struct _tDisplaySet_ *') discards qualifiers29"Passing 'const tDisplaySet *'350809630#4047#293#1(2@48"Passing argument to parameter 'display_set' here-350809630#4399#175#-0#-4@126"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.h0000000000000000^66#36#66#36#18446744073709551615#0#14"Semantic Issue--1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^59#24#59#24#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^59#24#59#26#18446744073709551615#0#-2@26"Unknown type name 'HANDLE'-350809630#4664#148#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^79#0#79#0#18446744073709551615#0#11"Parse Issue--2@149"Incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)')40"Incompatible pointer types passing 'void350809630#4925#320#1(2@45"Passing argument to parameter 'callback' here-350809630#5404#168#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h0000000000000000^42#42#42#42#18446744073709551615#0#14"Semantic Issue--1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^103#57#103#57#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^103#57#103#77#18446744073709551615#0#-2@149"Incompatible pointer types passing 'void (void *, const tDisplaySet *)' to parameter of type 'PageDecoder_CB' (aka 'void (*)(void *, tDisplaySet *)')40"Incompatible pointer types passing 'void350809630#5670#320#1(2@45"Passing argument to parameter 'callback' here-350809630#6149#168#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h0000000000000000^42#42#42#42#18446744073709551615#0#14"Semantic Issue--1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^112#57#112#57#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^112#57#112#77#18446744073709551615#0#-2@120"Incompatible pointer to integer conversion returning 'pSUBCtxt' (aka 'SUBCtxt *') from a function with result type 'int'63"Incompatible pointer to integer conversion returning 'pSUBCtxt'350809630#6415#262#-1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^124#15#124#15#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^124#15#124#17#18446744073709551615#0#-2@100"Incompatible pointer to integer conversion returning 'void *' from a function with result type 'int'-350809630#6716#242#2(2@109"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h-350809630#6993#124#-0#-4@106"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/stdlib.h0000000000000000^114#13#114#13#18446744073709551615#0#30"Apple LLVM compiler 3.0 Notice--2@113"Instantiated from: /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h-350809630#7161#127#-0#-4@110"file://localhost/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/usr/include/sys/_types.h0000000000000000^90#22#90#22#18446744073709551615#0#30"Apple LLVM compiler 3.0 Notice--1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^136#11#136#11#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^136#11#136#15#18446744073709551615#0#-2@26"Unknown type name 'HANDLE'-350809630#7358#150#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^150#24#150#24#18446744073709551615#0#11"Parse Issue--2@58"Implicit declaration of function 'Sleep' is invalid in C99-350809630#7578#215#-1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^156#7#156#7#18446744073709551615#0#14"Semantic Issue--2@26"Unknown type name 'HANDLE'-350809630#7821#150#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^182#29#182#29#18446744073709551615#0#11"Parse Issue--2@124"Passing 'char *' to parameter of type 'const unsigned char *' converts between pointers to integer types with different sign-350809630#8074#281#1(2@43"Passing argument to parameter 'packet' here-350809630#8476#166#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.h0000000000000000^49#67#49#67#18446744073709551615#0#14"Semantic Issue--1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^187#43#187#43#18446744073709551615#0#14"Semantic Issue1(4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^187#43#187#46#18446744073709551615#0#-2@26"Unknown type name 'HANDLE'-350809630#8802#150#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^192#28#192#28#18446744073709551615#0#11"Parse Issue--2@65"Implicit declaration of function 'ESPacketPush' is invalid in C99-350809630#9071#223#-1#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^199#10#199#10#18446744073709551615#0#14"Semantic Issue--2@26"Unknown type name 'HANDLE'-350809630#9416#150#-2#-4@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^216#39#216#39#18446744073709551615#0#11"Parse Issue--2@37"Too many errors emitted, stopping now-350809630#9684#68#-2#--29"Apple LLVM compiler 3.0 Error--0#0#0#-19%DVTDocumentLocation5@121"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c0000000000000000^2695"CompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o src/libSUB/ALI_DTV_SUB.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=5.0 -iquote "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-generated-files.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-own-target-headers.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-all-target-headers.hmap" -iquote "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-project-headers.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos/include" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/DerivedSources/armv7" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/DerivedSources" "-F/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos" -MMD -MT dependencies -MF "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.d" -c "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/ALI_DTV_SUB.c" -o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/ALI_DTV_SUB.o"36"9AA2B2B1-BF8C-48F4-AFB1-91B1BDD493B2-
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/SUBSync.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/SUBSync.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_decoder.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+s350809630.073553
+e350809630.392534
+r0
+xCompileC
+xbuild/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o
+x/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c
+xnormal
+xarmv7
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:23:
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:37:9: error: unknown type name 'UINT64' [1]
+o typedef UINT64   uint64_t;
+o         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:38:9: error: unknown type name 'INT64' [1]
+o typedef INT64   int64_t;
+o         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11:{98:8-98:74}: warning: using the result of an assignment as a condition without parentheses [-Wparentheses,3]
+o     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){
+o        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11: note: place parentheses around the assignment to silence this warning [3]
+o     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){
+o           ^
+o        (                                                                 )
+ofix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:8-98:8}:"("
+ofix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:74-98:74}:")"
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11: note: use '==' to turn this assignment into an equality comparison [3]
+o     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){
+o           ^
+o           ==
+ofix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:11-98:12}:"=="
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:87:9: warning: unused variable 'need_insert_new_ds' [-Wunused-variable,12]
+o     int need_insert_new_ds=0;
+o         ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:91:19: warning: unused variable 'have_cp_pcs' [-Wunused-variable,12]
+o     unsigned char have_cp_pcs=0; // if the DS have copy the PCS from the last one
+o                   ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:195:5: warning: no previous prototype for function 'ESPacketPush' [-Wmissing-prototypes,3]
+o int ESPacketPush(int packet_length, const unsigned char* packet, tDsubDecoder* dsub_decoder, uint64_t pts ) 
+o     ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:299:6: warning: no previous prototype for function 'CleanDisplaySetBeforePTS' [-Wmissing-prototypes,3]
+o void CleanDisplaySetBeforePTS(tDsubDecoder *dsub_decoder, uint64_t pts) {
+o      ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:315:15: warning: unused variable 'lk' [-Wunused-variable,12]
+o     ExLinkPtr lk=NULL;
+o               ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:324:1: warning: no previous prototype for function 'FindCurDisplaySet' [-Wmissing-prototypes,3]
+o FindCurDisplaySet(tPageDecoder *dsub_decoder, uint64_t pts) {
+o ^
+o/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:334:1: warning: no previous prototype for function 'FindNextDisplaySet' [-Wmissing-prototypes,3]
+o FindNextDisplaySet(tPageDecoder *dsub_decoder, uint64_t pts) {
+o ^
+o8 warnings and 2 errors generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0de2131eeee8b441^28ee641eeee8b441^-3795"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:23:/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:37:9: error: unknown type name 'UINT64' [1] typedef UINT64   uint64_t;         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h:38:9: error: unknown type name 'INT64' [1] typedef INT64   int64_t;         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11:{98:8-98:74}: warning: using the result of an assignment as a condition without parentheses [-Wparentheses,3]     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){        ~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11: note: place parentheses around the assignment to silence this warning [3]     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){           ^        (                                                                 )fix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:8-98:8}:"("fix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:74-98:74}:")"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:98:11: note: use '==' to turn this assignment into an equality comparison [3]     if(lk = ExListLinkSearch(page_decoder->display_sets, (void*)&temp_ds)){           ^           ==fix-it:"/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c":{98:11-98:12}:"=="/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:87:9: warning: unused variable 'need_insert_new_ds' [-Wunused-variable,12]     int need_insert_new_ds=0;         ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:91:19: warning: unused variable 'have_cp_pcs' [-Wunused-variable,12]     unsigned char have_cp_pcs=0; // if the DS have copy the PCS from the last one                   ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:195:5: warning: no previous prototype for function 'ESPacketPush' [-Wmissing-prototypes,3] int ESPacketPush(int packet_length, const unsigned char* packet, tDsubDecoder* dsub_decoder, uint64_t pts )      ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:299:6: warning: no previous prototype for function 'CleanDisplaySetBeforePTS' [-Wmissing-prototypes,3] void CleanDisplaySetBeforePTS(tDsubDecoder *dsub_decoder, uint64_t pts) {      ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:315:15: warning: unused variable 'lk' [-Wunused-variable,12]     ExLinkPtr lk=NULL;               ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:324:1: warning: no previous prototype for function 'FindCurDisplaySet' [-Wmissing-prototypes,3] FindCurDisplaySet(tPageDecoder *dsub_decoder, uint64_t pts) { ^/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:334:1: warning: no previous prototype for function 'FindNextDisplaySet' [-Wmissing-prototypes,3] FindNextDisplaySet(tPageDecoder *dsub_decoder, uint64_t pts) { ^8 warnings and 2 errors generated.10(21%IDEActivityLogMessage2@26"Unknown type name 'UINT64'-350809630#131#150#2(36%IDEActivityLogHeaderInclusionMessage3@130"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:23:-350809630#0#131#-0#-23%DVTTextDocumentLocation4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^22#18446744073709551615#22#18446744073709551615#18446744073709551615#0#---2@135"Unknown type name 'UINT64' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h-350809630#18446744073709551615#0#-0#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^36#8#36#8#18446744073709551615#0#---2#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^36#8#36#8#18446744073709551615#0#11"Parse Issue--2@25"Unknown type name 'INT64'-350809630#320#149#2(3@130"In file included from /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c:23:-350809630#18446744073709551615#0#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^22#18446744073709551615#22#18446744073709551615#18446744073709551615#0#---2@134"Unknown type name 'INT64' in /Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h-350809630#18446744073709551615#0#-0#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^37#8#37#8#18446744073709551615#0#---2#-4@123"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.h0000000000000000^37#8#37#8#18446744073709551615#0#11"Parse Issue--2@68"Using the result of an assignment as a condition without parentheses-350809630#506#221#5(2@63"Place parentheses around the assignment to silence this warning-350809630#879#186#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#10#97#10#18446744073709551615#0#14"Semantic Issue--26%IDEActivityLogFixItMessage5@22"Fix-It: replace with (-350809630#1231#130#-0#23"com.apple.dt.IDE.fix-it4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#7#97#7#18446744073709551615#0#---1"(5@22"Fix-It: replace with )-350809630#1361#132#-0#23"com.apple.dt.IDE.fix-it4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#73#97#73#18446744073709551615#0#---1")2@60"Use '==' to turn this assignment into an equality comparison-350809630#1493#183#-0#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#10#97#10#18446744073709551615#0#14"Semantic Issue--5@23"Fix-It: replace with ==-350809630#1780#133#-0#23"com.apple.dt.IDE.fix-it4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#10#97#11#18446744073709551615#0#---2"==1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#10#97#10#18446744073709551615#0#14"Semantic Issue1(4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^97#7#97#73#18446744073709551615#0#-2@36"Unused variable 'need_insert_new_ds'-350809630#1913#180#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^86#8#86#8#18446744073709551615#0#19"Unused Entity Issue--2@29"Unused variable 'have_cp_pcs'-350809630#2135#174#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^90#18#90#18#18446744073709551615#0#19"Unused Entity Issue--2@49"No previous prototype for function 'ESPacketPush'-350809630#2413#196#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^194#4#194#4#18446744073709551615#0#14"Semantic Issue--2@61"No previous prototype for function 'CleanDisplaySetBeforePTS'-350809630#2726#208#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^298#5#298#5#18446744073709551615#0#14"Semantic Issue--2@20"Unused variable 'lk'-350809630#3017#166#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^314#14#314#14#18446744073709551615#0#19"Unused Entity Issue--2@54"No previous prototype for function 'FindCurDisplaySet'-350809630#3224#201#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^323#0#323#0#18446744073709551615#0#14"Semantic Issue--2@55"No previous prototype for function 'FindNextDisplaySet'-350809630#3491#202#-1#-4@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^333#0#333#0#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation6@122"file://localhost/Users/cidana/Documents/Edmond/Cidana%20SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c0000000000000000^2700"CompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o src/libSUB/dsub_decoder.c normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -Wno-sign-conversion -mthumb -miphoneos-version-min=5.0 -iquote "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-generated-files.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-own-target-headers.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-all-target-headers.hmap" -iquote "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/LibSubtitle-project-headers.hmap" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos/include" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/DerivedSources/armv7" "-I/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/DerivedSources" "-F/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos" -MMD -MT dependencies -MF "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.d" -c "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_decoder.c" -o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_decoder.o"36"C73690F9-203B-470F-B590-FA230F3B579F-
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_display_set.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_display_set.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_display_set.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_display_set.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_finder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_finder.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_finder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_finder.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_renderer.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_renderer.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_renderer.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_renderer.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_segments.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/dsub_segments.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/dsub_segments.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/dsub_segments.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/exlist.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/exlist.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/exlist.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUB/exlist.c" normal armv7 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/LibSubtitle.build/Debug-iphoneos/LibSubtitle.build/Objects-normal/armv7/subdecoder.o "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/src/libSUBDecoder/subdecoder.cpp" normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool "/Users/cidana/Documents/Edmond/Cidana SVN/Subtitle/trunk/build/iOS/LibSubtitle/build/Debug-iphoneos/libLibSubtitle.a" normal armv7
+r0
+

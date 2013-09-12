@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SH4_t1", "SH4_t1.vcproj", "{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|SH7777_Demo (SH4) = Debug|SH7777_Demo (SH4)
+		Release|SH7777_Demo (SH4) = Release|SH7777_Demo (SH4)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Debug|SH7777_Demo (SH4).ActiveCfg = Debug|SH7777_Demo (SH4)
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Debug|SH7777_Demo (SH4).Build.0 = Debug|SH7777_Demo (SH4)
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Debug|SH7777_Demo (SH4).Deploy.0 = Debug|SH7777_Demo (SH4)
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Release|SH7777_Demo (SH4).ActiveCfg = Release|SH7777_Demo (SH4)
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Release|SH7777_Demo (SH4).Build.0 = Release|SH7777_Demo (SH4)
+		{07166312-06A0-49D8-8B6C-B9E9FD6F0E32}.Release|SH7777_Demo (SH4).Deploy.0 = Release|SH7777_Demo (SH4)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+###############################################################################
+## TAL library template Makefile
+## Copyright (c) 2007 Cidana, Inc.
+###############################################################################
+
+#ST,PXA_LINUX
+#BUILD_PLATFORM = PXA_LINUX
+#BUILD_PLATFORM = ST
+BUILD_PLATFORM = ST_NODATACOPY
+
+#tools
+SHELL = /bin/sh
+
+ 
+ifeq ($(BUILD_PLATFORM),ST)
+	CC = ~/arm-2010q1/bin/arm-none-linux-gnueabi-gcc
+	CXX = ~/arm-2010q1/bin/arm-none-linux-gnueabi-g++
+	#DEFINES += GFX_FB
+	#DEFINES += GFX_FB_LINUX
+	DEFINES += ST_LINUX
+	DEFINES += _GNU_LINUX
+	DEFINES += STATIC_IMGPROC_LIB
+else
+	ifeq ($(BUILD_PLATFORM),ST_NODATACOPY)
+		CC = /home/golan/arm-2010q1/bin/arm-none-linux-gnueabi-gcc
+		CXX = /home/golan/arm-2010q1/bin/arm-none-linux-gnueabi-g++
+		DEFINES += ST_SAVECOPY_LINUX
+		DEFINES += ST_LINUX
+		DEFINES += _GNU_LINUX
+		DEFINES += STATIC_IMGPROC_LIB
+	else
+		ifeq ($(BUILD_PLATFORM),PXA_LINUX)
+		CC = /usr/local/arm-linux-4.1.1/bin/arm-iwmmxt-linux-gnueabi-gcc
+		CXX = /usr/local/arm-linux-4.1.1/bin/arm-iwmmxt-linux-gnueabi-g++
+		DEFINES += PXA_LINUX
+		else
+		CC = gcc
+		CXX = g++
+		endif
+	endif
+endif
+
+AS = as
+AR = ar
+LD = ld
+NM = nm
+RAN = ranlib
+STRIP = strip
+OBJCOPY = objcopy
+CP = cp
+MV = mv
+MAKE = make
+
+#verbose
+VERBOSE = Y
+
+#debug
+DEBUG = Y

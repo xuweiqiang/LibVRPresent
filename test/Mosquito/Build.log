@@ -1,0 +1,76 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [00:0000000000:PROGC ] Checking for \WINCE500\sdk\bin\i386\srccheck.exe.
+BUILD: [00:0000000001:PROGC ] SrcCheck exit code: 0 (dec).
+BUILD: [00:0000000002:PROGC ] Compile and Link for ARM.
+BUILD: [00:0000000003:PROGC ] Loading B:\WINCE500\PLATFORM\APOLLO\Build.dat.
+BUILD: [00:0000000004:PROGC ] Done.
+BUILD: [00:0000000005:PROGC ] Computing include file dependencies:
+BUILD: [00:0000000006:PROGC ] Checking for SDK include directory: B:\WINCE500\sdk\ce\inc.
+BUILD: [00:0000000007:PROGC ] Scan \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\
+BUILD: [00:0000000008:INFO  ] Will Compile \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\mosquito.rc because target: obj\ARMV4I\retail\mosquito.res is missing.
+BUILD: [00:0000000009:INFO  ] Will Compile \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\mosquito.cpp because target: obj\ARMV4I\retail\mosquito.obj is missing.
+BUILD: [00:0000000010:PROGC ] Saving B:\WINCE500\PLATFORM\APOLLO\Build.dat.
+BUILD: [00:0000000011:INFO  ] Done.
+BUILD: [00:0000000012:PROGC ] Compiling \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\ directory.
+BUILD: [00:0000000013:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  NOLINK=1 NOPASS0=1'
+BUILD: [01:0000000014:INFO  ] makefile.def: BUILDROOT is B:\WINCE500\PLATFORM\APOLLO
+BUILD: [01:0000000015:INFO  ] makefile.def: Including B:\WINCE500\PLATFORM\APOLLO\sources.cmn
+BUILD: [01:0000000016:INFO  ] Directory: B:\WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO
+BUILD: [01:0000000017:INFO  ] TARGETNAME: mosquito_wts
+BUILD: [01:0000000018:INFO  ] makefile.def: Including B:\WINCE500\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000019:PROGC ] Resource Compiling .\mosquito.rc
+BUILD: [01:0000000020:INFO  ] 	rc -r -IARM\ -I. -I..\..\include -IB:\WINCE500\public\common\sdk\inc -IB:\WINCE500\public\common\oak\inc -IB:\WINCE500\public\common\ddk\inc -IB:\WINCE500\sdk\CE\inc -I.\Resource\0409 -DWINCEINTERNAL  -DUNDER_CE=500  -DINTERNATIONAL -DL0409 -l 409 -c 1252  -foobj\ARMV4I\retail\mosquito.res B:\WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\.\mosquito.rc
+BUILD: [01:0000000021:PROGC ] Compiling .\mosquito.cpp
+BUILD: [01:0000000022:INFO  ] cl -nologo    /Gy -Foobj\ARMV4I\retail\mosquito.obj -c -IARM\ -I. -I..\..\include -IB:\WINCE500\public\common\sdk\inc -IB:\WINCE500\public\common\oak\inc -IB:\WINCE500\public\common\ddk\inc -IB:\WINCE500\sdk\CE\inc -I.\Resource\0409 -Ox -Os -GF -Zi -FdB:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.pdb -DUNICODE -D_UNICODE -DUNDER_CE=500 -D_WIN32_WCE=500 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4I -D_ARM_   -DMCU_117MHZ -DHF_LOG_TO_FILE -DNEW_PMU_SETTING -DLCM_CHISHIN_LR043HC212 -DBSP_LCD_480X272 -DINTERNATIONAL -DL0409 -DINTLMSG_CODEPAGE=1252 -QRimplicit-import- -W3   -QRarch4T -DTHUMBSUPPORT -QRinterwork-return  B:\WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\.\mosquito.cpp
+BUILD: [01:0000000023:INFO  ] mosquito.cpp
+BUILD: [01:0000000024:WARNN ] b:\WINCE500\PLATFORM\APOLLO\Src\Application\DDrawTest\SRC\MOSQUITO\mosquito.cpp(302) : warning C4101: 'hRet' : unreferenced local variable
+BUILD: [01:0000000025:INFO  ] Stop.
+BUILD: [00:0000000026:INFO  ] Relinking \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\ because target lib: B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.exe does not exist.
+BUILD: [00:0000000027:PROGC ] Linking \WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO\ directory.
+BUILD: [00:0000000028:PROG  ] 'NMAKE.EXE   -i -c BUILDMSG=Stop.  LINKONLY=1 NOPASS0=1'
+BUILD: [01:0000000029:INFO  ] makefile.def: BUILDROOT is B:\WINCE500\PLATFORM\APOLLO
+BUILD: [01:0000000030:INFO  ] makefile.def: Including B:\WINCE500\PLATFORM\APOLLO\sources.cmn
+BUILD: [01:0000000031:INFO  ] Directory: B:\WINCE500\PLATFORM\APOLLO\src\Application\DDrawTest\SRC\MOSQUITO
+BUILD: [01:0000000032:INFO  ] TARGETNAME: mosquito_wts
+BUILD: [01:0000000033:INFO  ] makefile.def: Including B:\WINCE500\public\common\oak\misc\sources.ReleaseType_PLATFORM
+BUILD: [01:0000000034:INFO  ] 	set LIB=B:\WINCE500\sdk\CE\lib
+BUILD: [01:0000000035:PROGC ] Linking B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.exe
+BUILD: [01:0000000036:INFO  ] 	link /LARGEADDRESSAWARE -out:B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.exe -machine:thumb @C:\DOCUME~1\mtk40079\LOCALS~1\Temp\7\nm2658.tmp
+BUILD: [01:0000000037:INFO  ] Microsoft (R) Incremental Linker Version 7.10.4017
+BUILD: [01:0000000038:INFO  ] Copyright (C) Microsoft Corporation.  All rights reserved.
+BUILD: [01:0000000039:INFO  ] 
+BUILD: [01:0000000040:INFO  ] -nodefaultlib 
+BUILD: [01:0000000041:INFO  ] -entry:WinMainCRTStartup 
+BUILD: [01:0000000042:INFO  ] -pdb:B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.pdb 
+BUILD: [01:0000000043:INFO  ] /opt:ref 
+BUILD: [01:0000000044:INFO  ] -debug -debugtype:cv -incremental:no 
+BUILD: [01:0000000045:INFO  ] -map:B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.map 
+BUILD: [01:0000000046:INFO  ] -savebaserelocations:B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.rel 
+BUILD: [01:0000000047:INFO  ] -MERGE:.rdata=.text -merge:.astart=.text -align:4096 -ignore:4001,4070,4078,4086,4089,4096,4099,4108,4229 /STACK:65536,4096 
+BUILD: [01:0000000048:INFO  ] -subsystem:windowsce,5.00 
+BUILD: [01:0000000049:INFO  ] -base:0x00010000 
+BUILD: [01:0000000050:INFO  ] obj\ARMV4I\retail\mosquito.res obj\ARMV4I\retail\mosquito.obj 
+BUILD: [01:0000000051:INFO  ] B:\WINCE500\PBWorkspaces\Hawk\WINCE500\APOLLO_ARMV4I\cesysgen\sdk\lib\ARMV4I\retail\dxguid.lib B:\WINCE500\PBWorkspaces\Hawk\WINCE500\APOLLO_ARMV4I\cesysgen\sdk\lib\ARMV4I\retail\ddraw.lib B:\WINCE500\PBWorkspaces\Hawk\WINCE500\APOLLO_ARMV4I\cesysgen\sdk\lib\ARMV4I\retail\uuid.lib B:\WINCE500\PBWorkspaces\Hawk\WINCE500\APOLLO_ARMV4I\cesysgen\sdk\lib\ARMV4I\retail\coredll.lib B:\WINCE500\PBWorkspaces\Hawk\WINCE500\APOLLO_ARMV4I\cesysgen\sdk\lib\ARMV4I\retail\corelibc.lib 
+BUILD: [01:0000000052:INFO  ] 	copylink /S:a /D:f /E:a /R:n B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.exe B:\WINCE500\PBWorkspaces\Hawk\RelDir\APOLLO_ARMV4I_Release\mosquito_wts.exe
+BUILD: [01:0000000053:INFO  ] 	copylink /S:a /D:f /E:a /R:n B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.map B:\WINCE500\PBWorkspaces\Hawk\RelDir\APOLLO_ARMV4I_Release\mosquito_wts.map
+BUILD: [01:0000000054:INFO  ] 	copylink /S:a /D:f /E:a /R:n B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.pdb B:\WINCE500\PBWorkspaces\Hawk\RelDir\APOLLO_ARMV4I_Release
+BUILD: [01:0000000055:INFO  ] 	if exist B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.rel copylink /S:a /D:f /E:a /R:n B:\WINCE500\platform\APOLLO\target\ARMV4I\retail\mosquito_wts.rel B:\WINCE500\PBWorkspaces\Hawk\RelDir\APOLLO_ARMV4I_Release\mosquito_wts.rel
+BUILD: [01:0000000056:INFO  ] Stop.
+BUILD: [00:0000000057:PROGC ] Done.
+BUILD: [00:0000000058:PROGC ]                      Files      Warnings      Errors
+BUILD: [00:0000000059:PROGC ] Midl                     0             0           0
+BUILD: [00:0000000060:PROGC ] Resource                 1             0           0
+BUILD: [00:0000000061:PROGC ] Message                  0             0           0
+BUILD: [00:0000000062:PROGC ] Precomp Header           0             0           0
+BUILD: [00:0000000063:PROGC ] C/Cpp/Cxx                1             1           0
+BUILD: [00:0000000064:PROGC ] Assembler                0             0           0
+BUILD: [00:0000000065:PROGC ] Static Libraries         0             0           0
+BUILD: [00:0000000066:PROGC ] Dll's                    0             0           0
+BUILD: [00:0000000067:PROGC ] Exe's                    1             0           0
+BUILD: [00:0000000068:PROGC ] Resx                     0             0           0
+BUILD: [00:0000000069:PROGC ] Csharp Targets           0             0           0
+BUILD: [00:0000000070:PROGC ] Other                    0             0           0
+BUILD: [00:0000000071:PROGC ] 
+BUILD: [00:0000000072:PROGC ] Total                    3             1           0
+BUILD: [00:0000000073:PROGC ] 
+BUILD: [00:0000000074:PROGC ] 1 Warnings,  0 Errors

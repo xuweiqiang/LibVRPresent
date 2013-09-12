@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TITIANII_OSD_TEST", "TITIANII_OSD_TEST\TITIANII_OSD_TEST.vcproj", "{3F10FBB3-0298-4013-9727-EA33A5431F82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|SiRFprima_EVB_CE6_SDK (ARMV4I) = Debug|SiRFprima_EVB_CE6_SDK (ARMV4I)
+		Release|SiRFprima_EVB_CE6_SDK (ARMV4I) = Release|SiRFprima_EVB_CE6_SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F10FBB3-0298-4013-9727-EA33A5431F82}.Debug|SiRFprima_EVB_CE6_SDK (ARMV4I).ActiveCfg = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{3F10FBB3-0298-4013-9727-EA33A5431F82}.Debug|SiRFprima_EVB_CE6_SDK (ARMV4I).Build.0 = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{3F10FBB3-0298-4013-9727-EA33A5431F82}.Debug|SiRFprima_EVB_CE6_SDK (ARMV4I).Deploy.0 = Debug|STANDARD_CE6_SDK (ARMV4I)
+		{3F10FBB3-0298-4013-9727-EA33A5431F82}.Release|SiRFprima_EVB_CE6_SDK (ARMV4I).ActiveCfg = Release|STANDARD_CE6_SDK (ARMV4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

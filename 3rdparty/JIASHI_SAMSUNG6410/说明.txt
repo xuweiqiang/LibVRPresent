@@ -1,0 +1,4 @@
+1. 将s3c6410_cmm.dll拷贝到\Flash Disk\1\下面，并将cmm.reg import到注册表
+   这一步是因为原有驱动在关闭cmm的时候会卡死。
+2. cmm_vde.dll跟msd类似，另外msd是使用window2作为视频显示用，我们使用的是window0，请注意
+   头文件init_window0,和 uinit_window0.

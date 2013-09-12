@@ -1,0 +1,2 @@
+BUILD: [Thrd:Sequence:Type  ] Message
+BUILD: [01:0000000024:WARNN ] b:\WINCE500\PLATFORM\APOLLO\Src\Application\DDrawTest\SRC\MOSQUITO\mosquito.cpp(302) : warning C4101: 'hRet' : unreferenced local variable

@@ -1,0 +1,207 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "newres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MMDEMO              ICON                    "SiRF.ico"
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""newres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       IDM_FILE_OPEN
+        MENUITEM "E&xit",                       IDM_FILE_EXIT
+    END
+    POPUP "&Demo"
+    BEGIN
+        MENUITEM "&Play",                       IDM_DEMO_PLAY
+    END
+    POPUP "&Misc"
+    BEGIN
+        MENUITEM "&Loop",                       IDM_LOOP
+        MENUITEM "&Render",                     IDM_RENDER
+        MENUITEM "  &Deinterlace",              IDM_DEINTERLACE
+        MENUITEM "  &Full Screen",              IDM_FULL_SCREEN
+        MENUITEM "  &Use Surf Mgr",             IDM_USE_SURF_MGR
+        MENUITEM "  &To Overlay",               IDM_OVERLAY
+        MENUITEM "  Overlay Alpha",             IDM_OVERLAY_ALPHA
+    END
+    POPUP "&Log"
+    BEGIN
+        MENUITEM "&To File",                    IDM_LOG_TO_FILE
+    END
+    POPUP "&Mode"
+    BEGIN
+        MENUITEM "&Screen",                     ID_MENUITEM40022, GRAYED
+        MENUITEM "  &Normal",                   IDM_MODE_SCREEN_NORMAL
+        MENUITEM "&Display",                    ID_MENUITEM40024, GRAYED
+        MENUITEM "  Normal",                    IDM_MODE_DISPLAY_NORMAL
+        MENUITEM "  Full",                      IDM_MODE_DISPLAY_FULL
+        MENUITEM "Render",                      ID_MENUITEM40023, GRAYED
+        MENUITEM "  Full",                      IDM_MODE_RENDER_FULL
+        MENUITEM "  Normal",                    IDM_MODE_RENDER_NORMAL
+    END
+    POPUP "&Wait"
+    BEGIN
+        MENUITEM "VR_ASYNC_WAITVSYNC",          IDM_VR_ASYNC_WAITVSYNC
+        MENUITEM "VR_SYNC_WAITVSYNC",           IDM_VR_SYNC_WAITVSYNC
+        MENUITEM "VR_NOWAIT_VSYNC",             IDM_VR_NOWAIT_VSYNC
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 125, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "About MMDemo"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_MMDEMO,IDC_STATIC,11,17,20,20
+    LTEXT           "MMDemo Version 1.0",IDC_STATIC,38,10,70,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,38,25,70,8
+END
+
+IDD_OVERLAY_ALPHA DIALOG  0, 0, 125, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE 0x80000000L
+CAPTION "Overlay Alpha"
+FONT 8, "System"
+BEGIN
+    CONTROL         "",IDC_ALPHA_SLIDER,"msctls_trackbar32",WS_TABSTOP,3,19,115,18
+    LTEXT           "0",IDC_STATIC,8,38,10,8
+    LTEXT           "1.00",IDC_STATIC,101,38,17,8
+    LTEXT           "0",IDC_ALPHA_VALUE,51,7,17,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_OVERLAY_ALPHA, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_MMDEMO ACCELERATORS 
+BEGIN
+    "/",            IDM_HELP_ABOUT,         ASCII,  ALT, NOINVERT
+    VK_F4,          IDM_FILE_EXIT,          VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "MMDemo"
+    IDS_HELLO               "Hello World!"
+    IDC_MMDEMO              "MMDEMO"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

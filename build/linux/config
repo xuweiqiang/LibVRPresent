@@ -1,0 +1,45 @@
+###############################################################################
+## TAL library template Makefile
+## Copyright (c) 2007 Cidana, Inc.
+###############################################################################
+
+#ST,PXA_LINUX
+#BUILD_PLATFORM = PXA_LINUX
+
+#tools
+SHELL = /bin/sh
+
+DEFINES = GFX_FB 
+DEFINES += GFX_SDL 
+ 
+ifeq ($(BUILD_PLATFORM),ST)
+CC = /usr/local/x-tools/arm-stm-linux-gnueabi/bin/arm-stm-linux-gnueabi-gcc
+CXX = /usr/local/x-tools/arm-stm-linux-gnueabi/bin/arm-stm-linux-gnueabi-g++
+DEFINES += ST
+else
+	ifeq ($(BUILD_PLATFORM),PXA_LINUX)
+	CC = /usr/local/arm-linux-4.1.1/bin/arm-iwmmxt-linux-gnueabi-gcc
+	CXX = /usr/local/arm-linux-4.1.1/bin/arm-iwmmxt-linux-gnueabi-g++
+	DEFINES += PXA_LINUX
+	else
+	CC = gcc
+	CXX = g++
+	endif
+endif
+
+AS = as
+AR = ar
+LD = ld
+NM = nm
+RAN = ranlib
+STRIP = strip
+OBJCOPY = objcopy
+CP = cp
+MV = mv
+MAKE = make
+
+#verbose
+VERBOSE = Y
+
+#debug
+DEBUG = Y

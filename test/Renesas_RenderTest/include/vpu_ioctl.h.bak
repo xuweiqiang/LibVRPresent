@@ -1,0 +1,14 @@
+/* VPU IO control code for VPU driver       */
+/* vpu_ioctl.h                              */
+/* 2007.01.24                               */
+
+#define IOCTL_VPU_SDRAM_WRITE			0x13d1
+#define IOCTL_VPU_SDRAM_READ			0x13d2
+#define IOCTL_VPU_SLEEP				0x13d3
+
+#define IOCTL_VPU_INFO_MEMPTR			0x13d4
+#define IOCTL_VPU_INFO_REGBASE			0x13d5
+#define IOCTL_VPU_INFO_REGSIZE			0x13d6
+#define IOCTL_VPU_INFO_MEMBASE			0x13d7
+#define IOCTL_VPU_INFO_MEMSIZE			0x13d8
+#define IOCTL_VPU_INFO_SYSINTR			0x13d9

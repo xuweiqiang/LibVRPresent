@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openvg_ri", "..\ri\openvg_ri.vcproj", "{437D17EC-6B76-42CF-8CCC-05F22A6166D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "samples", "samples.vcproj", "{BD12A47C-534E-45B8-8C97-C5C232C24DCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{437D17EC-6B76-42CF-8CCC-05F22A6166D4} = {437D17EC-6B76-42CF-8CCC-05F22A6166D4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{437D17EC-6B76-42CF-8CCC-05F22A6166D4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{437D17EC-6B76-42CF-8CCC-05F22A6166D4}.Debug|Win32.Build.0 = Debug|Win32
+		{437D17EC-6B76-42CF-8CCC-05F22A6166D4}.Release|Win32.ActiveCfg = Release|Win32
+		{437D17EC-6B76-42CF-8CCC-05F22A6166D4}.Release|Win32.Build.0 = Release|Win32
+		{BD12A47C-534E-45B8-8C97-C5C232C24DCA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BD12A47C-534E-45B8-8C97-C5C232C24DCA}.Debug|Win32.Build.0 = Debug|Win32
+		{BD12A47C-534E-45B8-8C97-C5C232C24DCA}.Release|Win32.ActiveCfg = Release|Win32
+		{BD12A47C-534E-45B8-8C97-C5C232C24DCA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

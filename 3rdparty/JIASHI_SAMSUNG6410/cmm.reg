@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\CMM]
+"Dll"="/flash disk/1/s3c6410_cmm.dll"
+"Prefix"="CMM"
+"Index"=dword:00000001
+"Order"=dword:00000030
+

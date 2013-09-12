@@ -1,0 +1,187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\LibVrPresent_Test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LibVrPresent_Test.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LIBVRPRESENT_TEST_DIALOG DIALOG  0, 0, 173, 87
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "LibVrPresent_Test"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "HLine",IDC_BUTTON_HorizontalLine,7,7,30,13
+    LTEXT           "SrcW",IDC_Static_SourceWidth,41,9,24,9
+    LTEXT           "SrcH",IDC_STATIC_SourceHeight,93,9,28,9
+    EDITTEXT        IDC_EDIT_SourceWidth,66,7,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SourceHeight,124,7,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ClipStartx,66,23,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ClipStartY,124,23,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Clip_Width,66,39,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ClipHeight,124,39,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DestWidth,66,55,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_DestHeight,124,55,24,12,ES_AUTOHSCROLL
+    LTEXT           "ClipX",IDC_STATIC_Clip_StartX,42,24,19,8
+    LTEXT           "ClipY",IDC_STATIC_Clip_StartY,93,24,20,9
+    LTEXT           "ClipW",IDC_STATIC_Clip_Width,42,41,21,9
+    LTEXT           "ClipH",IDC_STATIC_ClipHeight,94,41,18,11
+    LTEXT           "DestW",IDC_STATIC_DestWidth,42,58,23,8
+    LTEXT           "DestH",IDC_STATIC_DestHeight,94,57,25,8
+    LTEXT           "BlackW",IDC_STATIC,42,71,22,13
+    LTEXT           "WhiteW",IDC_STATIC,94,71,26,9
+    EDITTEXT        IDC_EDIT_BlackLine,66,70,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITWhiteLine,124,70,24,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "DLine",IDC_BUTTON_diagonal,7,44,30,12
+    PUSHBUTTON      "VLine",IDC_BUTTON_VerticalLine,7,26,30,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LibVrPresent_Test.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "LibVrPresent_Test.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_LIBVRPRESENT_TEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\LibVrPresent_Test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

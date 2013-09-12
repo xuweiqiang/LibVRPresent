@@ -1,0 +1,1937 @@
+# Microsoft eMbedded Visual Tools Project File - Name="MMDemo" - Package Owner=<4>
+# Microsoft eMbedded Visual Tools Generated Build File, Format Version 6.02
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (WCE ARMV4I) Application" 0xa501
+
+CFG=MMDemo - Win32 (WCE ARMV4I) Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "MMDemo.vcn".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "MMDemo.vcn" CFG="MMDemo - Win32 (WCE ARMV4I) Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "MMDemo - Win32 (WCE ARMV4I) Release" (based on "Win32 (WCE ARMV4I) Application")
+!MESSAGE "MMDemo - Win32 (WCE ARMV4I) Debug" (based on "Win32 (WCE ARMV4I) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP AllowPerConfigDependencies 0
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+# PROP ATL_Project 2
+CPP=clarm.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "MMDemo - Win32 (WCE ARMV4I) Release"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "ARMV4IRel"
+# PROP BASE Intermediate_Dir "ARMV4IRel"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "ARMV4IRel"
+# PROP Intermediate_Dir "ARMV4IRel"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "NDEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD BASE CPP /nologo /W3 /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /Yu"stdafx.h" /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) /c
+# ADD CPP /nologo /W3 /I "inc" /I "3rdParty/mp4v2/include" /D _WIN32_WCE=$(CEVersion) /D "ARM" /D "_ARM_" /D "$(CePlatform)" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D "UNICODE" /D "_UNICODE" /D "NDEBUG" /D MMDEMO_VERSION_STRING=L\"PrimaCEMMDemo_Rel1.03.5.13\" /D /D /D /QRarch4T /QRinterwork-return /O2 /M$(CECrtMT) MMDEMO_VERSION_STRING="L\"$(BINVER)\"" MMDEMO_VERSION_STRING="L\"$(BINVER)\"" MMDEMO_VERSION_STRING="L\"$(BINVER)\"" /c
+# SUBTRACT CPP /YX /Yc /Yu
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /map /debug /nodefaultlib:"$(CENoDefaultLib)" /libpath:"lib" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ELSEIF  "$(CFG)" == "MMDemo - Win32 (WCE ARMV4I) Debug"
+
+# PROP BASE Use_MFC 0
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "ARMV4IDbg"
+# PROP BASE Intermediate_Dir "ARMV4IDbg"
+# PROP BASE CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP BASE Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 0
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "ARMV4IDbg"
+# PROP Intermediate_Dir "ARMV4IDbg"
+# PROP CPU_ID "{DC70F430-E78B-494F-A9D5-62ADC56443B8}"
+# PROP Platform_ID "{8A9A2F80-6887-11D3-842E-005004848CBA}"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD RSC /l 0x409 /d UNDER_CE=$(CEVersion) /d _WIN32_WCE=$(CEVersion) /d "UNICODE" /d "_UNICODE" /d "DEBUG" /d "$(CePlatform)" /d "THUMB" /d "_THUMB_" /d "ARM" /d "_ARM_" /d "ARMV4I" /r
+# ADD BASE CPP /nologo /W3 /Zi /Od /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /Yu"stdafx.h" /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD CPP /nologo /W3 /Zi /Od /I "inc" /I "3rdParty/mp4v2/include" /D "DEBUG" /D "ARM" /D "_ARM_" /D "ARMV4I" /D UNDER_CE=$(CEVersion) /D _WIN32_WCE=$(CEVersion) /D "$(CePlatform)" /D "UNICODE" /D "_UNICODE" /D MMDEMO_VERSION_STRING=L\"PrimaCEMMDemo_Rel1.03.5.13\" /D /D /D /D /D /QRarch4T /QRinterwork-return /M$(CECrtMTDebug) /c
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o "NUL" /win32
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 commctrl.lib coredll.lib /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /subsystem:$(CESubsystem) /MACHINE:THUMB
+# ADD LINK32 commctrl.lib coredll.lib /nologo /base:"0x00010000" /stack:0x10000,0x1000 /entry:"WinMainCRTStartup" /debug /nodefaultlib:"$(CENoDefaultLib)" /libpath:"lib" /subsystem:$(CESubsystem) /MACHINE:THUMB
+
+!ENDIF 
+
+# Begin Target
+
+# Name "MMDemo - Win32 (WCE ARMV4I) Release"
+# Name "MMDemo - Win32 (WCE ARMV4I) Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Group "3rdParty"
+
+# PROP Default_Filter ""
+# Begin Group "mp4v2"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\3gp.cpp
+DEP_CPP_3GP_C=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_amr.cpp
+DEP_CPP_ATOM_=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_avc1.cpp
+DEP_CPP_ATOM_A=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_avcC.cpp
+DEP_CPP_ATOM_AV=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_d263.cpp
+DEP_CPP_ATOM_D=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_damr.cpp
+DEP_CPP_ATOM_DA=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_dref.cpp
+DEP_CPP_ATOM_DR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_elst.cpp
+DEP_CPP_ATOM_E=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_enca.cpp
+DEP_CPP_ATOM_EN=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_encv.cpp
+DEP_CPP_ATOM_ENC=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_free.cpp
+DEP_CPP_ATOM_F=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_ftyp.cpp
+DEP_CPP_ATOM_FT=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_hdlr.cpp
+DEP_CPP_ATOM_H=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_hinf.cpp
+DEP_CPP_ATOM_HI=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_hnti.cpp
+DEP_CPP_ATOM_HN=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_href.cpp
+DEP_CPP_ATOM_HR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_mdat.cpp
+DEP_CPP_ATOM_M=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_mdhd.cpp
+DEP_CPP_ATOM_MD=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_meta.cpp
+DEP_CPP_ATOM_ME=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_mp4s.cpp
+DEP_CPP_ATOM_MP=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_mp4v.cpp
+DEP_CPP_ATOM_MP4=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_mvhd.cpp
+DEP_CPP_ATOM_MV=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_ohdr.cpp
+DEP_CPP_ATOM_O=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_root.cpp
+DEP_CPP_ATOM_R=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_rtp.cpp
+DEP_CPP_ATOM_RT=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_s263.cpp
+DEP_CPP_ATOM_S=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_sdp.cpp
+DEP_CPP_ATOM_SD=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_smi.cpp
+DEP_CPP_ATOM_SM=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_sound.cpp
+DEP_CPP_ATOM_SO=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_standard.cpp
+DEP_CPP_ATOM_ST=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_stbl.cpp
+DEP_CPP_ATOM_STB=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_stdp.cpp
+DEP_CPP_ATOM_STD=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_stsc.cpp
+DEP_CPP_ATOM_STS=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_stsd.cpp
+DEP_CPP_ATOM_STSD=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_stsz.cpp
+DEP_CPP_ATOM_STSZ=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_tfhd.cpp
+DEP_CPP_ATOM_T=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_tkhd.cpp
+DEP_CPP_ATOM_TK=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_treftype.cpp
+DEP_CPP_ATOM_TR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_trun.cpp
+DEP_CPP_ATOM_TRU=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_udta.cpp
+DEP_CPP_ATOM_U=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_url.cpp
+DEP_CPP_ATOM_UR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_urn.cpp
+DEP_CPP_ATOM_URN=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_video.cpp
+DEP_CPP_ATOM_V=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atom_vmhd.cpp
+DEP_CPP_ATOM_VM=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\atoms.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\descriptors.cpp
+DEP_CPP_DESCR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\descriptors.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\errno.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\fcntl.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\io.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\isma.cpp
+DEP_CPP_ISMA_=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\sys\locking.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4.cpp
+DEP_CPP_MP4_C=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4array.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4atom.cpp
+DEP_CPP_MP4AT=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4atom.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4common.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4container.cpp
+DEP_CPP_MP4CO=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4container.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4descriptor.cpp
+DEP_CPP_MP4DE=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4descriptor.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4file.cpp
+DEP_CPP_MP4FI=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4file.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4file_io.cpp
+DEP_CPP_MP4FIL=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4info.cpp
+DEP_CPP_MP4IN=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4meta.cpp
+DEP_CPP_MP4ME=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4property.cpp
+DEP_CPP_MP4PR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4property.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4track.cpp
+DEP_CPP_MP4TR=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4track.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4util.cpp
+DEP_CPP_MP4UT=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\mp4util.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_bitstream.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_byteswap.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_config_set.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_getopt.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_sdl_includes.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_version.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\mpeg4ip_win32.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\ocidescriptors.cpp
+DEP_CPP_OCIDE=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\ocidescriptors.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\odcommands.cpp
+DEP_CPP_ODCOM=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\odcommands.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\qosqualifiers.cpp
+DEP_CPP_QOSQU=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\qosqualifiers.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\rtphint.cpp
+DEP_CPP_RTPHI=\
+	".\3rdParty\mp4v2\atoms.h"\
+	".\3rdParty\mp4v2\descriptors.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\3rdParty\mp4v2\mp4array.h"\
+	".\3rdParty\mp4v2\mp4atom.h"\
+	".\3rdParty\mp4v2\mp4common.h"\
+	".\3rdParty\mp4v2\mp4container.h"\
+	".\3rdParty\mp4v2\mp4descriptor.h"\
+	".\3rdParty\mp4v2\mp4file.h"\
+	".\3rdParty\mp4v2\mp4property.h"\
+	".\3rdParty\mp4v2\mp4track.h"\
+	".\3rdParty\mp4v2\mp4util.h"\
+	".\3rdParty\mp4v2\ocidescriptors.h"\
+	".\3rdParty\mp4v2\odcommands.h"\
+	".\3rdParty\mp4v2\qosqualifiers.h"\
+	".\3rdParty\mp4v2\rtphint.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\rtphint.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\sys\stat.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\sys\timeb.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\sys\types.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\mp4v2\include\sys\utime.h
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\3rdParty\io_file\avilib\avilib.cpp
+DEP_CPP_AVILI=\
+	".\3rdParty\inc\avilib.h"\
+	".\3rdParty\inc\IFileOps.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\io_file\CEFileSys.cpp
+DEP_CPP_CEFIL=\
+	".\3rdParty\inc\CEFileSys.h"\
+	".\3rdParty\inc\IFileOps.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\io_file\IFileOps.cpp
+DEP_CPP_IFILE=\
+	".\3rdParty\inc\IFileOps.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\io_file\RamFileSys.cpp
+DEP_CPP_RAMFI=\
+	".\3rdParty\inc\IFileOps.h"\
+	".\3rdParty\inc\RamFileSys.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\3rdParty\io_file\StdFileSys.cpp
+DEP_CPP_STDFI=\
+	".\3rdParty\inc\IFileOps.h"\
+	".\3rdParty\inc\StdFileSys.h"\
+	
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\MediaFile.cpp
+DEP_CPP_MEDIA=\
+	".\3rdParty\inc\avilib.h"\
+	".\3rdParty\inc\CEFileSys.h"\
+	".\3rdParty\inc\IFileOps.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\inc\mm_codec_common.h"\
+	".\inc\sirf_portable.h"\
+	".\MediaFile.h"\
+	".\StdAfx.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\MMDemo.cpp
+DEP_CPP_MMDEM=\
+	".\3rdParty\inc\avilib.h"\
+	".\3rdParty\inc\CEFileSys.h"\
+	".\3rdParty\inc\IFileOps.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\inc\BHSurfMgr.h"\
+	".\inc\mm_codec_common.h"\
+	".\inc\platform.h"\
+	".\inc\RendererSDK.h"\
+	".\inc\sirf_portable.h"\
+	".\MediaFile.h"\
+	".\MMDemo.h"\
+	".\PerMon.h"\
+	".\PlayThread.h"\
+	".\resource.h"\
+	".\StdAfx.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\PlayThread.cpp
+DEP_CPP_PLAYT=\
+	".\3rdParty\inc\avilib.h"\
+	".\3rdParty\inc\CEFileSys.h"\
+	".\3rdParty\inc\IFileOps.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_version.h"\
+	".\3rdParty\mp4v2\include\mpeg4ip_win32.h"\
+	".\3rdParty\mp4v2\mp4.h"\
+	".\CodecI420.h"\
+	".\inc\BHSurfMgr.h"\
+	".\inc\mm_codec_common.h"\
+	".\inc\platform.h"\
+	".\inc\RendererSDK.h"\
+	".\inc\sirf_portable.h"\
+	".\MediaFile.h"\
+	".\PerMon.h"\
+	".\PlayThread.h"\
+	".\StdAfx.h"\
+	{$(INCLUDE)}"basetsd.h"\
+	
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+DEP_CPP_STDAF=\
+	".\StdAfx.h"\
+	
+# ADD CPP /Yc"stdafx.h"
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\CodecI420.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MediaFile.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MMDemo.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\newres.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PerMon.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PlayThread.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\MMDemo.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\MMDemo.rc
+# End Source File
+# Begin Source File
+
+SOURCE=.\SiRF.ico
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\ReadMe.txt
+# End Source File
+# End Target
+# End Project

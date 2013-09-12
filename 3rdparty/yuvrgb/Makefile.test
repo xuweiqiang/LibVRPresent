@@ -1,0 +1,28 @@
+# Project: y420rgbtest
+
+CPP  = g++
+CC   = gcc
+RES  = 
+OBJ  = y420rgb_test.o
+LINKOBJ  = y420rgb_test.o
+LIBS =  -L./ -lY420RGB  
+INCS =  
+CXXINCS =  
+BIN  = y420rgbtest
+CXXFLAGS = $(CXXINCS) -O2  -ffast-math -fomit-frame-pointer
+CFLAGS = $(INCS) -O2 -ffast-math -fomit-frame-pointer
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+y420rgb_test.o: y420rgb_test.c y420rgbAPI.h
+	$(CC) -c y420rgb_test.c -o y420rgb_test.o $(CFLAGS)
